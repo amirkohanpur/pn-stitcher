@@ -14,7 +14,6 @@ include 'sub_deallocate.f90'
 
 program stitcher
 	
-	
 	use sub_variables
 	implicit none
 	real :: std, avg, dist ! used fortran functions

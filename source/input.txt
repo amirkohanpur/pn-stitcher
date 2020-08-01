@@ -1,0 +1,8 @@
+%% network names (left, right, final)
+mtsimon-l
+mtsimon-r
+mtsimon-s
+%% network addresses (left, right, final)
+"../networks/"
+"../networks/"
+"./"

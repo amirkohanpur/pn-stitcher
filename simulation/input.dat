@@ -1,0 +1,147 @@
+TITLE
+mtsimon-s
+#
+
+RAND_SEED
+5634475
+#
+
+OUTPUT
+% PropertyOutput   SwOutput
+       F               F  
+#
+
+SAT_TARGET
+%finalSat      maxPc      maxDeltaSw     maxDeltaPc     calcKr    calcI 
+    0.0       1.0E21        0.01         500000.0         T       F      
+%    1.0      -1.0E21        0.0025         500000.0         T       F      
+#
+
+INIT_CON_ANG
+%min		max		delta	gamma
+0.0          0.0    -0.2    -3.0  
+#
+
+EQUIL_CON_ANG
+%model	min		max		delta	gamma	distribution
+3       25.0    30.0    -1.0   -1.0    rand            25.2
+#
+
+%FRAC_CON_ANG
+% fraction  volBased  min     max   delta   eta
+%    0.5        T     90.0   112.0   -10.0   -1.0
+%  method  Clust Diam   Oil-in-Wat 
+%   corr     4               F
+%#
+
+RES_FORMAT
+excel
+#
+
+RELPERM_DEF
+single  F
+#
+
+%SAT_COMPRESS
+%0.1   0.001		T	F
+%#
+
+TRAPPING
+%   Inject fluid from     allow drainage    water mult fact in
+%      entry  exit       of dangling ends    filled circ elem
+         T     F                T               0.0E-30
+#
+
+SOLVER_TUNE
+%     min         Memory Scaling    Solver       Verbose     Conductance
+%  tolerance         Factor         output       Solver       Cut-Off
+    1.0E-30            8              0            F            0.0
+#
+
+PRS_BDRS
+% calc kr using   record press    num press
+%  avg press        profiles      profiles
+      F                F             11
+#
+
+%SOLVER_DBG
+%  Matrices    Velocities  Filename  Matlab  Init Only
+%  W  O  Res   W   O  Res
+%   T  T   T    F   F   F     test      F        F
+%#
+
+
+PORE_FILL_ALG
+blunt2
+#
+
+PORE_FILL_WGT
+0   18900	18900	18900	18900	18900
+#
+
+%FILLING_LIST
+%T  T  T  
+%#
+
+FLUID
+% interfacial     water         oil         water           oil        water     oil
+%  tension      viscosity    viscosity    resistivity    resistivity  density  density
+%   (mN/m)        (cp)         (cp)        (Ohm.m)        (Ohm.m)     (kg/m3)  (kg/m3)
+     30.0        0.550         0.023         1.2           1000.0      992.0   280.0
+#
+
+CALC_BOX
+0.00  1.00
+#
+
+%A_CLOSE_SHAVE
+%0.7
+%#
+
+%MODIFY_MOD_SIZE
+%0.5
+%#
+
+%PRS_DIFF
+%10.0  0.0   T
+%#
+
+%GRAV_CONST
+%-9.81   -9.81  0.0
+%#
+
+%MODIFY_RAD_DIST
+% =================  THROATS  =============================
+%0
+%3	1
+%1    ./psd.txt  -2.0  -600.0
+% ==================  PORES  =============================
+%0
+%3	1
+%1    ./psd.txt  -2.0  -600.0
+%T  T  50
+%#
+
+%MODIFY_G_DIST
+%-1 
+%0
+%5   0.001  0.04811  -1.0  -1.0  
+%T  50
+%#
+
+%MODIFY_PORO
+%0.20	0.01
+%#
+
+NETWORK
+F	../network/mtsimon-s
+#
+
+%WRITE_NET
+%F  ./stitched
+%#
+
+SAT_COVERGENCE
+%  minNumFillings   initStepSize   cutBack   maxIncr   stable disp
+       10               0.1          0.8       2.0          F
+#

@@ -8,7 +8,6 @@ In order to run the code, after having appropriate input file and pore-networks 
 ```
 pn_stitcher.exe input.txt
 ```
-<br/><br/>
 The file 'input.txt' has eight lines. Line 1 and 5 are Fortran comments. Line 2 and 3 are the prefix of pore-networks at the left and right, respectively. Line 4 is the prefix of the stitched pore-network. Line 6 and 7 are the folder address of original pore-networks and Line 8 is the folder address where the stitched pore-network will be written at.
 <br/><br/>
 For any questions or comments, please contact me at [kohanpu2@illinois.edu](kohanpu2@illinois.edu)

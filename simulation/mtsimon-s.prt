@@ -1,0 +1,192 @@
+TITLE
+l-r  
+
+RAND_SEED
+5634475  
+
+OUTPUT
+         F               F    
+
+SAT_TARGET
+      0.0       1.0E21        0.01         500000.0         T       F          
+
+INIT_CON_ANG
+  0.0          0.0    -0.2    -3.0    
+
+EQUIL_CON_ANG
+  3       25.0    30.0    -1.0   -1.0    rand            25.2  
+
+RES_FORMAT
+excel  
+
+RELPERM_DEF
+single  F  
+
+TRAPPING
+             T     F                T               0.0E-30  
+
+SOLVER_TUNE
+        1.0E-30            8              0            F            0.0  
+
+PRS_BDRS
+          F                F             11  
+
+PORE_FILL_ALG
+blunt2  
+
+PORE_FILL_WGT
+0   18900	18900	18900	18900	18900  
+
+FLUID
+           30.0        0.550         0.023         1.2           1000.0      992.0   280.0  
+
+CALC_BOX
+0.00  1.00  
+
+NETWORK
+F	./l-r  
+
+WRITE_NET
+F  ./stitched  
+
+SAT_COVERGENCE
+         10               0.1          0.8       2.0          F  
+
+
+===================================================
+Warning: For 5634 throats the lengths of the
+pore-throat-pore did not match the total length.
+This is generally only an artifact of the network
+reconstruction process, and is not serious.
+===================================================
+
+
+
+
+Number of pores:                           4905
+Number of throats:                         11958
+Average connection number:                 4.82324
+Number of connections to inlet:            129
+Number of connections to outlet:           129
+Number of physically isolated elements:    176
+Number of singlets removed:                0
+Number of triangular shaped elements:      16815
+Number of square shaped elements:          50
+Number of circular shaped elements:        0
+Median throat length to radius ratio:      16.0338
+Net porosity:                              0.245043
+Clay bound porosity:                       0
+Absolute permeability (mD)                 4287.16
+Absolute permeability (m2)                 4.2311e-012
+Formation factor:                          5.80538
+
+
+Sw =   1.00 ->  0.989;   2 steps;    26 fillings; Pc = 2.019e+003; krw = 9.558e-001; kro = 0.000e+000
+Sw =  0.989 ->  0.978;   3 steps;    43 fillings; Pc = 2.605e+003; krw = 9.113e-001; kro = 0.000e+000
+Sw =  0.978 ->  0.968;   3 steps;    53 fillings; Pc = 2.849e+003; krw = 8.674e-001; kro = 0.000e+000
+Sw =  0.968 ->  0.956;   3 steps;    58 fillings; Pc = 3.047e+003; krw = 8.248e-001; kro = 0.000e+000
+Sw =  0.956 ->  0.944;   3 steps;    46 fillings; Pc = 3.186e+003; krw = 7.958e-001; kro = 0.000e+000
+Sw =  0.944 ->  0.931;   2 steps;    26 fillings; Pc = 3.186e+003; krw = 7.561e-001; kro = 0.000e+000
+Sw =  0.931 ->  0.919;   2 steps;    45 fillings; Pc = 3.232e+003; krw = 7.338e-001; kro = 0.000e+000
+Sw =  0.919 ->  0.907;   2 steps;    45 fillings; Pc = 3.252e+003; krw = 7.115e-001; kro = 0.000e+000
+Sw =  0.907 ->  0.896;   2 steps;    26 fillings; Pc = 3.280e+003; krw = 6.350e-001; kro = 0.000e+000
+Sw =  0.896 ->  0.882;   3 steps;    36 fillings; Pc = 3.280e+003; krw = 5.361e-001; kro = 0.000e+000
+Sw =  0.882 ->  0.870;   3 steps;    36 fillings; Pc = 3.280e+003; krw = 5.198e-001; kro = 0.000e+000
+Sw =  0.870 ->  0.856;   2 steps;    33 fillings; Pc = 3.280e+003; krw = 4.970e-001; kro = 0.000e+000
+Sw =  0.856 ->  0.842;   2 steps;    41 fillings; Pc = 3.280e+003; krw = 4.712e-001; kro = 0.000e+000
+Sw =  0.842 ->  0.831;   5 steps;    77 fillings; Pc = 3.280e+003; krw = 4.524e-001; kro = 0.000e+000
+Sw =  0.831 ->  0.821;   2 steps;    48 fillings; Pc = 3.280e+003; krw = 4.469e-001; kro = 0.000e+000
+Sw =  0.821 ->  0.810;   3 steps;    36 fillings; Pc = 3.280e+003; krw = 4.410e-001; kro = 0.000e+000
+Sw =  0.810 ->  0.784;   3 steps;   112 fillings; Pc = 3.280e+003; krw = 4.277e-001; kro = 0.000e+000
+Sw =  0.784 ->  0.774;   3 steps;    36 fillings; Pc = 3.280e+003; krw = 4.204e-001; kro = 0.000e+000
+Sw =  0.774 ->  0.759;   3 steps;    36 fillings; Pc = 3.280e+003; krw = 4.135e-001; kro = 2.253e-002
+Sw =  0.759 ->  0.744;   4 steps;    55 fillings; Pc = 3.296e+003; krw = 3.968e-001; kro = 2.268e-002
+Sw =  0.744 ->  0.731;   2 steps;    48 fillings; Pc = 3.356e+003; krw = 3.547e-001; kro = 2.467e-002
+Sw =  0.731 ->  0.715;   4 steps;    70 fillings; Pc = 3.409e+003; krw = 3.371e-001; kro = 2.920e-002
+Sw =  0.715 ->  0.705;   2 steps;    26 fillings; Pc = 3.409e+003; krw = 3.333e-001; kro = 2.924e-002
+Sw =  0.705 ->  0.694;   2 steps;    38 fillings; Pc = 3.409e+003; krw = 3.247e-001; kro = 2.925e-002
+Sw =  0.694 ->  0.678;   2 steps;    40 fillings; Pc = 3.409e+003; krw = 2.967e-001; kro = 2.925e-002
+Sw =  0.678 ->  0.665;   3 steps;    37 fillings; Pc = 3.409e+003; krw = 2.902e-001; kro = 2.925e-002
+Sw =  0.665 ->  0.652;   2 steps;    48 fillings; Pc = 3.409e+003; krw = 2.823e-001; kro = 2.959e-002
+Sw =  0.652 ->  0.639;   2 steps;    48 fillings; Pc = 3.409e+003; krw = 2.630e-001; kro = 2.963e-002
+Sw =  0.639 ->  0.625;   3 steps;   105 fillings; Pc = 3.448e+003; krw = 2.508e-001; kro = 3.773e-002
+Sw =  0.625 ->  0.615;   4 steps;    62 fillings; Pc = 3.448e+003; krw = 2.410e-001; kro = 3.773e-002
+Sw =  0.615 ->  0.604;   5 steps;    86 fillings; Pc = 3.448e+003; krw = 2.246e-001; kro = 3.773e-002
+Sw =  0.604 ->  0.593;   3 steps;    87 fillings; Pc = 3.448e+003; krw = 2.073e-001; kro = 3.773e-002
+Sw =  0.593 ->  0.581;   4 steps;    49 fillings; Pc = 3.448e+003; krw = 2.035e-001; kro = 3.773e-002
+Sw =  0.581 ->  0.571;   3 steps;    39 fillings; Pc = 3.448e+003; krw = 1.983e-001; kro = 3.773e-002
+Sw =  0.571 ->  0.560;   2 steps;    48 fillings; Pc = 3.448e+003; krw = 1.921e-001; kro = 3.773e-002
+Sw =  0.560 ->  0.549;   4 steps;    90 fillings; Pc = 3.448e+003; krw = 1.883e-001; kro = 3.773e-002
+Sw =  0.549 ->  0.538;   3 steps;    48 fillings; Pc = 3.448e+003; krw = 1.835e-001; kro = 3.773e-002
+Sw =  0.538 ->  0.527;   5 steps;   100 fillings; Pc = 3.489e+003; krw = 1.750e-001; kro = 4.589e-002
+Sw =  0.527 ->  0.516;   4 steps;    72 fillings; Pc = 3.505e+003; krw = 1.672e-001; kro = 4.653e-002
+Sw =  0.516 ->  0.500;   3 steps;   112 fillings; Pc = 3.537e+003; krw = 1.589e-001; kro = 6.672e-002
+Sw =  0.500 ->  0.490;   4 steps;   134 fillings; Pc = 3.634e+003; krw = 1.494e-001; kro = 7.806e-002
+Sw =  0.490 ->  0.479;   3 steps;    68 fillings; Pc = 3.642e+003; krw = 1.437e-001; kro = 7.880e-002
+Sw =  0.479 ->  0.469;   5 steps;    84 fillings; Pc = 3.665e+003; krw = 1.375e-001; kro = 7.900e-002
+Sw =  0.469 ->  0.457;   3 steps;    93 fillings; Pc = 3.709e+003; krw = 1.303e-001; kro = 8.176e-002
+Sw =  0.457 ->  0.447;   4 steps;   113 fillings; Pc = 3.756e+003; krw = 1.232e-001; kro = 8.281e-002
+Sw =  0.447 ->  0.436;   3 steps;    58 fillings; Pc = 3.763e+003; krw = 1.190e-001; kro = 8.446e-002
+Sw =  0.436 ->  0.426;   5 steps;    64 fillings; Pc = 3.808e+003; krw = 1.131e-001; kro = 9.315e-002
+Sw =  0.426 ->  0.415;   3 steps;    59 fillings; Pc = 3.837e+003; krw = 1.071e-001; kro = 1.173e-001
+Sw =  0.415 ->  0.403;   3 steps;    59 fillings; Pc = 3.837e+003; krw = 1.017e-001; kro = 1.173e-001
+Sw =  0.403 ->  0.393;   3 steps;    40 fillings; Pc = 3.837e+003; krw = 9.843e-002; kro = 1.173e-001
+Sw =  0.393 ->  0.382;   6 steps;   142 fillings; Pc = 3.837e+003; krw = 7.938e-002; kro = 1.173e-001
+Sw =  0.382 ->  0.368;   3 steps;   112 fillings; Pc = 3.846e+003; krw = 7.418e-002; kro = 1.186e-001
+Sw =  0.368 ->  0.358;   4 steps;   114 fillings; Pc = 3.880e+003; krw = 6.879e-002; kro = 1.239e-001
+Sw =  0.358 ->  0.348;   4 steps;    95 fillings; Pc = 3.921e+003; krw = 6.545e-002; kro = 1.249e-001
+Sw =  0.348 ->  0.337;   4 steps;    75 fillings; Pc = 3.948e+003; krw = 6.306e-002; kro = 1.252e-001
+Sw =  0.337 ->  0.326;   3 steps;   112 fillings; Pc = 4.000e+003; krw = 5.986e-002; kro = 1.316e-001
+Sw =  0.326 ->  0.314;   3 steps;   112 fillings; Pc = 4.067e+003; krw = 5.612e-002; kro = 1.589e-001
+Sw =  0.314 ->  0.303;   4 steps;    95 fillings; Pc = 4.105e+003; krw = 5.338e-002; kro = 1.610e-001
+Sw =  0.303 ->  0.293;   3 steps;   108 fillings; Pc = 4.146e+003; krw = 5.054e-002; kro = 1.739e-001
+Sw =  0.293 ->  0.272;   4 steps;   191 fillings; Pc = 4.203e+003; krw = 4.197e-002; kro = 1.872e-001
+Sw =  0.272 ->  0.262;   4 steps;   173 fillings; Pc = 4.281e+003; krw = 3.880e-002; kro = 2.387e-001
+Sw =  0.262 ->  0.242;   4 steps;   233 fillings; Pc = 4.380e+003; krw = 3.367e-002; kro = 2.742e-001
+Sw =  0.242 ->  0.232;   6 steps;   190 fillings; Pc = 4.453e+003; krw = 2.977e-002; kro = 2.892e-001
+Sw =  0.232 ->  0.221;   6 steps;   178 fillings; Pc = 4.518e+003; krw = 2.663e-002; kro = 3.125e-001
+Sw =  0.221 ->  0.210;   3 steps;    91 fillings; Pc = 4.528e+003; krw = 2.469e-002; kro = 3.164e-001
+Sw =  0.210 ->  0.199;   4 steps;   181 fillings; Pc = 4.586e+003; krw = 2.247e-002; kro = 3.250e-001
+Sw =  0.199 ->  0.188;   5 steps;   187 fillings; Pc = 4.667e+003; krw = 2.025e-002; kro = 3.358e-001
+Sw =  0.188 ->  0.177;   4 steps;   150 fillings; Pc = 4.702e+003; krw = 1.916e-002; kro = 3.427e-001
+Sw =  0.177 ->  0.167;   5 steps;   229 fillings; Pc = 4.812e+003; krw = 1.736e-002; kro = 3.613e-001
+Sw =  0.167 ->  0.156;   4 steps;   220 fillings; Pc = 4.923e+003; krw = 1.558e-002; kro = 3.923e-001
+Sw =  0.156 ->  0.145;   7 steps;   198 fillings; Pc = 5.035e+003; krw = 1.386e-002; kro = 4.200e-001
+Sw =  0.145 ->  0.135;   7 steps;   211 fillings; Pc = 5.127e+003; krw = 1.260e-002; kro = 4.333e-001
+Sw =  0.135 ->  0.124;   8 steps;   332 fillings; Pc = 5.330e+003; krw = 1.057e-002; kro = 4.739e-001
+Sw =  0.124 ->  0.114;   6 steps;   363 fillings; Pc = 5.536e+003; krw = 8.854e-003; kro = 5.162e-001
+Sw =  0.114 ->  0.104;   6 steps;   306 fillings; Pc = 5.693e+003; krw = 7.648e-003; kro = 5.390e-001
+Sw =  0.104 -> 0.0931;   6 steps;   352 fillings; Pc = 5.925e+003; krw = 6.428e-003; kro = 5.546e-001
+Sw = 0.0931 -> 0.0827;   8 steps;   417 fillings; Pc = 6.178e+003; krw = 5.324e-003; kro = 5.933e-001
+Sw = 0.0827 -> 0.0722;   7 steps;   498 fillings; Pc = 6.471e+003; krw = 4.368e-003; kro = 6.362e-001
+Sw = 0.0722 -> 0.0621;   6 steps;   447 fillings; Pc = 6.823e+003; krw = 3.428e-003; kro = 6.759e-001
+Sw = 0.0621 -> 0.0521;   8 steps;   591 fillings; Pc = 7.361e+003; krw = 2.501e-003; kro = 7.342e-001
+Sw = 0.0521 -> 0.0420;   9 steps;   766 fillings; Pc = 8.189e+003; krw = 1.599e-003; kro = 7.927e-001
+Sw = 0.0420 -> 0.0320;   8 steps;   882 fillings; Pc = 9.293e+003; krw = 9.483e-004; kro = 8.509e-001
+Sw = 0.0320 -> 0.0220;  10 steps;  1113 fillings; Pc = 1.128e+004; krw = 4.286e-004; kro = 9.117e-001
+Sw = 0.0220 -> 0.0119;  10 steps;  1568 fillings; Pc = 1.600e+004; krw = 1.026e-004; kro = 9.611e-001
+Sw = 0.0119 -> 0.00193;  11 steps;  2314 fillings; Pc = 6.029e+004; krw = 5.063e-007; kro = 9.981e-001
+Sw = 0.00193 -> 0.00104;   6 steps;   400 fillings; Pc = 1.788e+005; krw = 6.528e-009; kro = 9.998e-001
+
+=====================  Drainage  =====================
+Total elapsed time for drainage:         20.118
+Solving for water relative permeability: 7.060
+Solving for oil relative permeability:   1.160
+Solving for resistivity index:           0.000
+Identifying trapped elements:            0.000
+Coalesceing trapped oil:                 0.002
+Max water flowrate error:                0.000 %
+Max oil flowrate error:                  0.000 %
+Max resistivity index error:             0.000 %
+
+===================  Network State  ===================
+Maximum capillary pressure reached (Pa): 178793.383
+Water saturation:                        0.001
+Number of elements invaded:              16685
+Remaining uninvaded elements:            178
+Number of trapped water regions:         0
+Total number of trapped water elements:  0
+Number of trapped oil regions:           0
+Total number of trapped oil elements:    0
+
+

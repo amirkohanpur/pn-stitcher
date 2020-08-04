@@ -4,11 +4,11 @@ PN-Stitcher is the source code of pore-network stitching method (PNSM). Details 
 The original code is written in Fortran (.f90 files) and compiled via GFortran.
 The format of input and output pore-network files is StatOil format. For more details on this format, please see the appendix of [Sochi (2007)](https://arxiv.org/pdf/1011.0760.pdf).
 <br/><br/>
-In order to compile the source code, you can download and install GNU Compiler Collection from [MinGW](http://www.mingw.org/). After completing the installation, type this line in Windows Command:
+In order to compile the source code, you can download and install GNU Compiler Collection from [MinGW](http://www.mingw.org/). After completing the installation, type this line in Windows Command Prompt:
 ```
 gfortran pn_stitcher.f90 > pn_stitcher
 ```
-This should generate the executable file ('pn_stitcher.exe'). In order to run the executable file, after having appropriate input file and pore-networks files, type this line in Windows Command:
+This should generate the executable file ('pn_stitcher.exe'). In order to run the executable file, after having appropriate input file and pore-networks files in the same folder as the executable file, type this line in Windows Command Prompt:
 ```
 pn_stitcher.exe input.txt
 ```

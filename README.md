@@ -8,7 +8,7 @@ In order to compile the source code, you can download and install GNU Compiler C
 ```
 gfortran pn_stitcher.f90 > pn_stitcher
 ```
-In order to run the executable, after having appropriate input file and pore-networks files, type this line in Windows Command:
+This should generate the executable file ('pn_stitcher.exe'). In order to run the executable file, after having appropriate input file and pore-networks files, type this line in Windows Command:
 ```
 pn_stitcher.exe input.txt
 ```

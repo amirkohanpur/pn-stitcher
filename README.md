@@ -14,4 +14,6 @@ pn_stitcher.exe input.txt
 ```
 The input file ('input.txt') has eight lines. Line 1 and 5 are Fortran comments. Line 2 and 3 are the prefix of pore-networks at the left and right, respectively. Line 4 is the prefix of the stitched pore-network. Line 6 and 7 are the folder address of original pore-networks and Line 8 is the folder address where the stitched pore-network will be written at.
 <br/><br/>
-For any questions or comments, please contact me at [kohanpu2@illinois.edu](kohanpu2@illinois.edu)
+The pore-network two-phase flow simulation is carried out using [PoreFlow](http://www.imperial.ac.uk/earth-science/research/research-groups/perm/research/pore-scale-modelling/software/two-phase-network-modelling-code/). For more details on this solver, please check out [Valvatne and Blunt (2004)](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2003WR002627).
+<br/><br/>
+For any questions or comments, please contact me at [kohanpu2@illinois.edu](mailto:kohanpu2@illinois.edu)

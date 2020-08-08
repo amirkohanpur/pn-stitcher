@@ -134,7 +134,7 @@ CALC_BOX
 %#
 
 NETWORK
-F	../network/mtsimon-s
+F	../example/mtsimon-s
 #
 
 %WRITE_NET

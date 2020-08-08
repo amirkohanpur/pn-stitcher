@@ -1,5 +1,6 @@
 # PN-Stitcher
-PN-Stitcher is the source code of pore-network stitching method (PNSM). Details of this method are explained in this [preprint](https://arxiv.org/pdf/2004.01523.pdf).
+PN-Stitcher is the source code of pore-network stitching method (PNSM).
+This method provides large-enough representative pore-network (PN) for a core that encompasses a larger scale of heterogeneities than is possible using conventional pore-scale modeling approaches while it is still computationally efficient. Details of this method are explained in this [preprint](https://arxiv.org/pdf/2004.01523.pdf).
 <br/><br/>
 The original code is written in Fortran (.f90 files) and compiled via GFortran.
 The format of input and output pore-network files is StatOil format. For more details on this format, please see the appendix of [Sochi (2007)](https://arxiv.org/pdf/1011.0760.pdf).
